@@ -1,0 +1,23 @@
+@import "../../../assets/scss/media";
+
+.custom-list-product {
+    width: 100%;
+    //background-color: burlywood;
+    .item-product {
+        //min-height: 400px;
+        height: 360px;
+      
+        @include sm {
+            height: 410px;
+        }
+        @include md {
+            height: 395px;
+        }
+        @include lg {
+            height: 395px;
+        }
+        @include xl {
+            height: 395px;
+        }
+    }
+}
